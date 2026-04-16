@@ -45,7 +45,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: app1
+  name: app2
   annotations:
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
     alb.ingress.kubernetes.io/certificate-arn: 'arn:aws:acm:us-east-1:971126626665:certificate/14484dcc-e5af-4321-837c-44fe2203f376'
